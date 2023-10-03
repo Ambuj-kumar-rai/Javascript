@@ -38,3 +38,14 @@ const myFn = function()
 {
     console.log("Hey This is in Function");
 }
+
+
+
+// ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+
+// Stack(Primitive), Heap (Non-Primitive)
+
+// if we are fetching the data from stack the value which we received are a copy of original value, while in non-primitve we will get the address of heap memory
+// hence the changes which we are made on primitive datatype the actual changes made on copy of value not a original value. But in Non primitive case is opposite.
+
